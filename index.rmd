@@ -1,0 +1,19 @@
+---
+title: "wk3"
+author: "TLTC"
+date: "July 23, 2017"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## mpg dataset
+
+```{r mpg, echo=FALSE, message=FALSE}
+library(plotly)
+plot_ly(mpg, x= displ, y= hwy, mode= "markers", color = drv)
+```
+
+## Thanks!
